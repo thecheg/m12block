@@ -1,0 +1,84 @@
+.footer {
+	padding:30px 0;
+	background:$color-dark;
+	color:#fff;
+
+	&-top {
+		display:flex;
+		justify-content:space-between;
+		margin:0 -10px 20px;
+
+		&__col {
+			padding:0 10px;
+		}
+	}
+
+	&__logo {
+		display:block;
+		width:220px;
+		height:35px;
+
+		& svg {
+			fill:#fff;
+			shape-rendering:geometricPrecision;
+			text-rendering:geometricPrecision;
+			image-rendering:optimizeQuality;
+			fill-rule:evenodd;
+			clip-rule:evenodd;
+		}
+
+		html.no-touch &:hover {
+			opacity:.7;
+		}
+	}
+
+	&-address {
+		max-width:330px;
+
+		@media only screen and (min-width: 1001px) {
+			font-size:16px!important;
+		}
+
+		& p {
+			&:not(:last-child) {
+				margin-bottom:10px;
+			}
+		}
+		& a {
+			white-space: nowrap;
+
+			html.no-touch &:hover {
+				color:$color-red;
+			}
+		}
+	}
+
+	&-bot {
+		padding-top:30px;
+		border-top:rgba(#BEBDBD, .2) solid 1px;
+		display:flex;
+		margin:0 -16px;
+		font-size: 16px;
+		line-height: 22px;
+		letter-spacing: 1.2px;
+		font-family:'Nunito';
+
+		&__col {
+			padding:0 16px;
+
+			&--pol {
+				flex-grow:1;
+			}
+		}
+	}
+
+	&__link {
+		html.no-touch &:hover {
+			color:$color-red;
+		}
+	}
+
+	&__copy {
+		color: rgba(#F9F9F9, .5);
+	}
+}

@@ -1,0 +1,17 @@
+@@include('../template/_svg-sprite.html')
+	<script>
+		// config
+		var rootPath = '@@webRoot/';
+	</script>
+	<script src="@@webRoot/js/app.min.js"></script>
+	<script>
+		// ДЛЯ ДЕМО
+		(function () {
+			$('.ui-form form').on('submit', function(e) {
+				e.preventDefault();
+
+				$(this).closest('.ui-form').addClass('sent');
+			});
+		})(jQuery);
+		// ДЛЯ ДЕМО
+	</script>

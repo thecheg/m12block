@@ -1,0 +1,66 @@
+@@include('@@webRoot/template/_head.html',{
+	"pageTitle": 'Контакты',
+	"pageKeywords": '',
+	"pageDescription": ''
+})
+<body class="body">
+	<div class="app">
+@@include('@@webRoot/template/_preloader.html')
+@@include('@@webRoot/template/_header.html', {
+	'menuContacts': 'active'
+})
+		<main class="app__content">
+			<section class="section contacts">
+				<div class="inner">
+					<header class="head head--inner head--contacts">
+						<h1 class="head__title">
+							Связаться с&nbsp;нами
+						</h1>
+					</header>
+					<div class="contacts-item">
+						<div class="contacts-item__inner">
+							<h2 class="contacts-item__left">
+								Контакты
+							</h2>
+							<div class="contacts-item__right">
+								<p>
+									<a href="tel:+79209100001" target="_blank">
+										<b>+7 (920) 910 00 01</b>
+									</a>
+								</p>
+								<p>
+									<a href="tel:+79209100002" target="_blank">
+										<b>+7 (920) 910 00 02</b>
+									</a>
+								</p>
+								<p>
+									<a href="mailto:info@m12blok.ru" target="_blank">
+										<b>info@m12blok.ru</b>
+									</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="contacts-item">
+						<div class="contacts-item__inner">
+							<h2 class="contacts-item__left">
+								Адрес
+							</h2>
+							<div class="contacts-item__right">
+								<p>
+									<b>601390</b>, Владимирская&nbsp;обл., Судогодский р-н, МО&nbsp;"Вяткинское (сельское поселение)", д.&nbsp;Погребищи, ул.&nbsp;Производственная, д.&nbsp;1
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+@@include('@@webRoot/template/_location.html')
+@@include('@@webRoot/template/_consult.html')
+		</main>
+@@include('@@webRoot/template/_footer.html')
+	</div>
+@@include('@@webRoot/template/_popups.html')
+@@include('@@webRoot/template/_foot.html')
+</body>
+</html>

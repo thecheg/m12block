@@ -1,0 +1,120 @@
+@@include('@@webRoot/template/_head.html',{
+	"pageTitle": 'Новости',
+	"pageKeywords": '',
+	"pageDescription": ''
+})
+<body class="body">
+	<div class="app">
+@@include('@@webRoot/template/_preloader.html')
+@@include('@@webRoot/template/_header.html')
+@@include('@@webRoot/template/_header.html', {
+	'menuNews': 'active'
+})
+		<main class="app__content">
+			<section class="section news">
+				<header class="head">
+					<h2 class="head__title">
+						Новости
+					</h2>
+				</header>
+				<div class="inner">
+					<div class="news__list">
+						<div class="news-item">
+							<div class="news-item__date">
+								15.06.2022
+							</div>
+							<div class="news-item__img">
+								<picture>
+									<source srcset="@@webRoot/images/news1.webp" type="image/webp">
+									<source srcset="@@webRoot/images/news1.jpg" type="image/jpeg">
+									<img src="@@webRoot/images/news1.jpg" alt="" />
+								</picture>
+							</div>
+							<div class="news-item__ttl">
+								<a href="page-article.html">
+									Telegram для логистического бизнеса
+								</a>
+							</div>
+							<div class="news-item__text ui-text">
+								<p>
+									Продвижение бизнеса в Telegram - отличная возможность привлечь заинтересованных клиентов без весомых вложений. Продвижение бизнеса в Telegram - отличная возможность привлечь заинтересованных клиентов без весомых вложений.
+								</p>
+							</div>
+							<div class="news-item__btn">
+								<a class="ui-btn ui-btn--h1 ui-btn--fw ui-btn--border-red" href="page-article.html">
+									<span class="ui-btn__text">
+										подробнее
+									</span>
+								</a>
+							</div>
+						</div>
+						<div class="news-item">
+							<div class="news-item__date">
+								02.06.2022
+							</div>
+							<div class="news-item__img">
+								<picture>
+									<source srcset="@@webRoot/images/news2.webp" type="image/webp">
+									<source srcset="@@webRoot/images/news2.jpg" type="image/jpeg">
+									<img src="@@webRoot/images/news2.jpg" alt="" />
+								</picture>
+							</div>
+							<div class="news-item__ttl">
+								<a href="page-article.html">
+									Июньская акция: скидка 5% на страхование груза!
+								</a>
+							</div>
+							<div class="news-item__text ui-text">
+								<p>
+									Акция -5% действует на все виды страхования, кроме страхования на форс-мажорные случаи.
+								</p>
+							</div>
+							<div class="news-item__btn">
+								<a class="ui-btn ui-btn--h1 ui-btn--fw ui-btn--border-red" href="page-article.html">
+									<span class="ui-btn__text">
+										подробнее
+									</span>
+								</a>
+							</div>
+						</div>
+						<div class="news-item">
+							<div class="news-item__date">
+								02.03.2022
+							</div>
+							<div class="news-item__img">
+								<picture>
+									<source srcset="@@webRoot/images/news3.webp" type="image/webp">
+									<source srcset="@@webRoot/images/news3.jpg" type="image/jpeg">
+									<img src="@@webRoot/images/news3.jpg" alt="" />
+								</picture>
+							</div>
+							<div class="news-item__ttl">
+								<a href="page-article.html">
+									Как избежать обмана, когда  предлагают дешевое хранение
+								</a>
+							</div>
+							<div class="news-item__text ui-text">
+								<p>
+									Качественное хранение  товара обходится в разы дешевле исправления огрехов после некачественного складирования. Проще сразу сделать все правильно, нежели потом исправлять ошибки.
+								</p>
+							</div>
+							<div class="news-item__btn">
+								<a class="ui-btn ui-btn--h1 ui-btn--fw ui-btn--border-red" href="page-article.html">
+									<span class="ui-btn__text">
+										подробнее
+									</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+@@include('@@webRoot/template/_location.html')
+@@include('@@webRoot/template/_consult.html')
+		</main>
+@@include('@@webRoot/template/_footer.html')
+	</div>
+@@include('@@webRoot/template/_popups.html')
+@@include('@@webRoot/template/_foot.html')
+</body>
+</html>

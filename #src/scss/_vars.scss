@@ -1,0 +1,11 @@
+:root {
+	--contW: 1280px;
+
+	--contP: 20px;
+
+	--contP2: calc(var(--contP) / 2);
+
+	--contM: calc(var(--contP2) * -1);
+
+	--hHeight:80px;
+}

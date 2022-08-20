@@ -1,0 +1,8 @@
+.body--fixed {
+	overflow:hidden!important;
+	padding-right:var(--sbW);
+
+	& .header {
+		padding-right:var(--sbW);
+	}
+}

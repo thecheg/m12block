@@ -1,0 +1,165 @@
+@@include('@@webRoot/template/_head.html',{
+	"pageTitle": 'О нас',
+	"pageKeywords": '',
+	"pageDescription": ''
+})
+<body class="body">
+	<div class="app">
+@@include('@@webRoot/template/_preloader.html')
+@@include('@@webRoot/template/_header.html', {
+	'menuAbout': 'active'
+})
+		<main class="app__content">
+			<section class="section about">
+				<div class="about__center">
+					<div class="about__bg">
+						<picture>
+							<source srcset="@@webRoot/images/about.webp" type="image/webp">
+							<source srcset="@@webRoot/images/about.jpg" type="image/jpeg">
+							<img src="@@webRoot/images/about.jpg" alt="" />
+						</picture>
+					</div>
+					<div class="inner">
+						<div class="about__cont">
+							<header class="head head--inner head--no-m">
+								<h1 class="head__title">
+									М12БЛОК – один из&nbsp;крупнейших складов ответственного хранения Московской области
+								</h1>
+								<div class="head__subtext head__subtext--about">
+									<p>
+										Работая в сфере складских услуг с&nbsp;1992&nbsp;года, М12Блок сегодня предоставляет клиентам исчерпывающий список сервисов по&nbsp;ответственному хранению. 
+									</p>
+									<p>
+										Наши склады соответствуют наиболее высоким стандартам и&nbsp;способны удовлетворить потребности любого клиента.
+									</p>
+								</div>
+							</header>
+						</div>
+					</div>
+					<div class="about-call">
+						<div class="inner about-call__inner">
+							<a class="ui-call ui-call--2 ui-text">
+								Звони нам по&nbsp;вопросам хранения:<br />
+								<span class="text-nowrap">+7 (920) 910 00 01</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="about__bot">
+					<div class="inner">
+						<div class="about__bot-in">
+							<div class="about__row">
+								<div class="about__col">
+									<div class="about-item">
+										<h3 class="about-item__ttl">
+											3+
+										</h3>
+										<div class="about-item__text ui-text">
+											<p>
+												лет успешной <br />работы
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="about__col">
+									<div class="about-item">
+										<h3 class="about-item__ttl">
+											1250+
+										</h3>
+										<div class="about-item__text ui-text">
+											<p>
+												довольных <br />клиентов
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="about__col">
+									<div class="about-item">
+										<h3 class="about-item__ttl">
+											57
+										</h3>
+										<div class="about-item__text ui-text">
+											<p>
+												компетентных <br />сотрудников
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="about__col">
+									<div class="about-item">
+										<h3 class="about-item__ttl">
+											50+
+										</h3>
+										<div class="about-item__text ui-text">
+											<p>
+												единиц проф. <br />оборудования
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section years">
+				<div class="inner">
+					<div class="years__block">
+						<div class="years__left years__left--t">
+							<h2 class="years__ttl">
+								Более 3 лет
+							</h2>
+						</div>
+						<div class="years__right years__right--t">
+							<div class="years__text">
+								<p>
+									<b>Оказываем услуги высокого уровня</b>. Мы такие крутые что круче некуда и таких на свете
+								</p>
+							</div>
+						</div>
+						<div class="years__left years__left--i">
+							<div class="years__img">
+								<picture>
+									<source srcset="@@webRoot/images/years.webp" type="image/webp">
+									<source srcset="@@webRoot/images/years.jpg" type="image/jpeg">
+									<img src="@@webRoot/images/years.jpg" alt="" />
+								</picture>
+							</div>
+						</div>
+						<div class="years__right">
+							<div class="years__text years__text--2">
+								<p>
+									Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--<section class="section clients">
+				<header class="head">
+					<h2 class="head__title">
+						Наши клиенты
+					</h2>
+				</header>
+				<div class="inner">
+					<div class="clients__row">
+						<div class="clients__col">
+							<div class="clients-item">
+								<div class="clients-item__logo">
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>-->
+@@include('@@webRoot/template/_location.html')
+@@include('@@webRoot/template/_consult.html')
+		</main>
+@@include('@@webRoot/template/_footer.html')
+	</div>
+@@include('@@webRoot/template/_popups.html')
+@@include('@@webRoot/template/_foot.html')
+</body>
+</html>

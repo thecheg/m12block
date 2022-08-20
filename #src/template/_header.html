@@ -1,0 +1,150 @@
+		<header class="header">
+			<div class="inner">
+				<div class="header__block">
+					<div class="header__left">
+						<a class="logo" href="@@webRoot/">
+							<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg>
+						</a>
+					</div>
+					<div class="header__inner">
+						<div class="header__center">
+							<nav class="menu">
+								<ul class="menu__list">
+									<li class="menu__item @@if (context.menuIndex) {current}">
+										<div class="menu__head">
+											<a class="menu__link" href="@@webRoot/">
+												Главная
+											</a>
+										</div>
+									</li>
+									<li class="menu__item menu__item--pp @@if (context.menuServices) {current}">
+										<div class="menu__head">
+											<a class="menu__link" href="page-services.html">
+												Услуги
+											</a>
+											<div class="menu__arr"></div>
+										</div>
+										<div class="menu__popup">
+											<div class="menu-services">
+												<div class="menu-services__col">
+													<a class="menu-services__item" href="page-service.html">
+														<div class="menu-services__icon">
+															<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu1"></use></svg>
+														</div>
+														<div class="menu-services__text">
+															Ответственное хранение
+														</div>
+													</a>
+												</div>
+												<div class="menu-services__col">
+													<a class="menu-services__item" href="page-service.html">
+														<div class="menu-services__icon">
+															<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu2"></use></svg>
+														</div>
+														<div class="menu-services__text">
+															Складские услуги
+														</div>
+													</a>
+												</div>
+												<div class="menu-services__col">
+													<a class="menu-services__item @@if (context.menuService3) {current}" href="page-service.html">
+														<div class="menu-services__icon">
+															<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu3"></use></svg>
+														</div>
+														<div class="menu-services__text">
+															Погрузо-разгрузочные работы
+														</div>
+													</a>
+												</div>
+												<div class="menu-services__col">
+													<a class="menu-services__item" href="page-service.html">
+														<div class="menu-services__icon">
+															<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu4"></use></svg>
+														</div>
+														<div class="menu-services__text">
+															Аренда сектора
+														</div>
+													</a>
+												</div>
+												<div class="menu-services__col">
+													<a class="menu-services__item" href="page-service.html">
+														<div class="menu-services__icon">
+															<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu5"></use></svg>
+														</div>
+														<div class="menu-services__text">
+															Продажа с места
+														</div>
+													</a>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="menu__item @@if (context.menuAbout) {current}">
+										<div class="menu__head">
+											<a class="menu__link" href="page-about.html">
+												О нас
+											</a>
+										</div>
+									</li>
+									<li class="menu__item @@if (context.menuNews) {current}">
+										<div class="menu__head">
+											<a class="menu__link" href="page-news.html">
+												Новости
+											</a>
+										</div>
+									</li>
+									<li class="menu__item @@if (context.menuContacts) {current}">
+										<div class="menu__head">
+											<a class="menu__link" href="page-contacts.html">
+												Контакты
+											</a>
+										</div>
+									</li>
+									<li class="menu__item">
+										<div class="menu__head">
+											<a class="menu__link" href="#location">
+												Наш адрес
+											</a>
+										</div>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="header__address">
+							Владимирская обл., Судогодский р-н, д.&nbsp;Погребищи, ул.&nbsp;Производственная, д.&nbsp;1
+						</div>
+						<div class="header__phone">
+							<a href="tel:+79209100001" target="_blank">
+								+7 (920) 910 00 01
+							</a>
+						</div>
+					</div>
+					<div class="header__right">
+						<div class="header-contacts">
+							<div class="header-contacts__col">
+								<a class="header-contacts__cb" href="tel:+79209100001" target="_blank">
+									<span>+7 (920) 910 00 01</span>
+									<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-phone"></use></svg>
+								</a>
+							</div>
+							<div class="header-contacts__col header-contacts__col--b">
+								<div class="header-contacts__btn">
+									<button class="ui-btn ui-btn--h1 ui-btn--red ui-btn--header" type="button" data-popup-open="request">
+										<span class="ui-btn__text">
+											заявка <span class="header__t">на расчет</span>
+										</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="header__toggle">
+						<div class="menu-toggle">
+							<div class="menu-toggle__line"></div>
+							<div class="menu-toggle__line"></div>
+							<div class="menu-toggle__line"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
