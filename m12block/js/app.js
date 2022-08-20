@@ -18830,7 +18830,6 @@ deviceIs.addClasses(document.documentElement);
 		winHeight = $(window).height();
 		scrollPos = $(window).scrollTop();
 		scrollbarWidth();
-		vhFix();
 		units();
 		if (menuOpened) {
 			menuClose();

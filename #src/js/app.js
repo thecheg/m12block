@@ -67,7 +67,6 @@ deviceIs.addClasses(document.documentElement);
 		scrollPos = $(window).scrollTop();
 
 		scrollbarWidth();
-		vhFix();
 		units();
 
 		if (menuOpened) {
