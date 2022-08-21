@@ -1162,6 +1162,7 @@ svg {
 			width:75px;
 			height:66px;
 			margin-bottom:30px;
+			transition:all .2s;
 
 			& svg {
 				transition:fill .2s;
@@ -1213,7 +1214,10 @@ svg {
 				color:rgba(#fff,.9);
 			}
 
-			&__icon,
+			&__icon {
+				filter:brightness(0) invert(1);
+			}
+
 			&__arrow {
 				& svg {
 					fill:#fff;

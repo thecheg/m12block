@@ -2336,6 +2336,9 @@ html.no-touch .logo:hover {
 	width: 75px;
 	height: 66px;
 	margin-bottom: 30px;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
 }
 
 .services-item__icon svg {
@@ -2394,7 +2397,11 @@ html.no-touch .services-item:hover .services-item__text {
 	color: rgba(255, 255, 255, 0.9);
 }
 
-html.no-touch .services-item:hover .services-item__icon svg,
+html.no-touch .services-item:hover .services-item__icon {
+	-webkit-filter: brightness(0) invert(1);
+	filter: brightness(0) invert(1);
+}
+
 html.no-touch .services-item:hover .services-item__arrow svg {
 	fill: #fff;
 }
