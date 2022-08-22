@@ -1634,6 +1634,17 @@ html.no-touch .logo:hover {
 	object-fit: cover;
 }
 
+.intro__bg:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: -o-linear-gradient(155.88deg, rgba(0, 0, 0, 0.462) 27.81%, rgba(0, 0, 0, 0.42) 102.06%);
+	background: linear-gradient(294.12deg, rgba(0, 0, 0, 0.462) 27.81%, rgba(0, 0, 0, 0.42) 102.06%);
+}
+
 .intro__cont {
 	max-width: 582px;
 	margin: 0 350px 0 50px;

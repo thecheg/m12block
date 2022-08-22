@@ -453,6 +453,16 @@ svg {
 		& img {
 			@include imgCover;
 		}
+
+		&:after {
+			content:'';
+			position:absolute;
+			left:0;
+			top:0;
+			right:0;
+			bottom:0;
+			background: linear-gradient(294.12deg, rgba(0, 0, 0, 0.462) 27.81%, rgba(0, 0, 0, 0.42) 102.06%);
+		}
 	}
 
 	&__cont {
