@@ -1,3 +1,18 @@
+@media only screen and (min-width: 1001px) and (max-height: 700px) {
+
+	.intro {
+		&__slide {
+			padding:50px 0;
+		}
+
+		&__frame {
+			padding:40px 30px;
+			min-height:auto;
+		}
+	}
+
+}
+
 @media only screen and (max-width: 1200px) {
 
 	.menu {

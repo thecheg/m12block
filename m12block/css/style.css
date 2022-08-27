@@ -3316,6 +3316,17 @@ html.no-touch .footer__link:hover {
 	}
 }
 
+@media only screen and (min-width: 1001px) and (max-height: 700px) {
+	.intro__slide {
+		padding: 50px 0;
+	}
+
+	.intro__frame {
+		padding: 40px 30px;
+		min-height: auto;
+	}
+}
+
 @media only screen and (min-width: 1101px) {
 	.header-contacts__cb svg {
 		display: none;
